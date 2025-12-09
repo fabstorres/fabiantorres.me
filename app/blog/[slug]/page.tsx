@@ -1,8 +1,9 @@
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const { default: Post, metadata } = await import(`@/content/${decodeURIComponent(slug).toLowerCase()}.mdx`);
-  console.log(metadata);
-  return <Post />;
+  // const { default: Post, metadata } = await import(`@/content/${decodeURIComponent(slug).toLowerCase()}.mdx`);
+  // console.log(metadata);
+  // return <Post />;
+  return <>Nothing for now</>;
 }
 
 export function generateStaticParams() {

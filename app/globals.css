@@ -1,5 +1,5 @@
-@import "tailwindcss";
-@import "tw-animate-css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -56,8 +56,8 @@
 }
 
 :root {
-  --font-sora: "Sora";
-  --font-bricolage: "Bricolage Grotesque";
+  --font-sora: 'Sora';
+  --font-bricolage: 'Bricolage Grotesque';
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);

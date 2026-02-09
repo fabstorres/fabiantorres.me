@@ -15,22 +15,10 @@ export default function Blog() {
           </Link>
           <Link
             href="/blog"
-            className="border-2 border-vampire-black min-w-28 font-bold text-center transition-all ease-in hover:bg-hot-pink hover:shadow-[2px_2px_0_#0A0A0A] hover:-translate-y-0.5"
+            className="border-2 border-vampire-black min-w-28 font-bold text-center transition-all ease-in bg-hot-pink shadow-[2px_2px_0_#0A0A0A] -translate-y-0.5"
           >
             Blog
           </Link>
-          <a
-            href="https://drive.google.com/drive/folders/1gtqPvlq2zJa02wKWChFMT5K5uar87fyy?usp=sharing"
-            className="border-2 border-vampire-black min-w-28 font-bold text-center transition-all ease-in hover:bg-hot-pink hover:shadow-[2px_2px_0_#0A0A0A] hover:-translate-y-0.5"
-          >
-            Resume
-          </a>
-          {/* <a
-        href="#"
-        className="border-2 border-vampire-black min-w-28 font-bold text-center transition-all ease-in hover:bg-hot-pink hover:shadow-[2px_2px_0_#0A0A0A] hover:-translate-y-0.5"
-      >
-        Socials
-      </a> */}
         </div>
       </nav>
       <section className="flex w-full mt-16 gap-4 flex-col items-center">

@@ -29,7 +29,7 @@ export default function Home() {
             Portfolio
           </Link>
           <Link
-            href="/blog"
+            href="https://fabs.blog"
             className="border-2 border-vampire-black min-w-24 md:min-w-28 font-bold text-center transition-all ease-in hover:bg-hot-pink hover:shadow-[2px_2px_0_#0A0A0A] hover:-translate-y-0.5"
           >
             Blog
